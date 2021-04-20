@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     // For CLI
-    implementation group: 'com.beust', name: 'jcommander', version: '1.78'
+    implementation group: 'com.beust', name: 'jcommander', version: '1.81'
 
     // For making HTTP requests
     implementation group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.1.4'
