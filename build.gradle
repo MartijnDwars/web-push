@@ -27,7 +27,7 @@ dependencies {
     implementation group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.1.4'
 
     // For making async HTTP requests
-    implementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.12.2'
+    implementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.12.3'
 
     // For cryptographic operations
     shadow group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.68'
