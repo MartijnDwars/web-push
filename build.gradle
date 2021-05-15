@@ -42,10 +42,10 @@ dependencies {
     testImplementation group: 'org.apache.httpcomponents', name: 'fluent-hc', version: '4.5.13'
 
     // For testing, obviously
-    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.2'
 
     // For running JUnit tests
-    testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.0'
+    testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.2'
 
     // For turning InputStream to String
     testImplementation group: 'commons-io', name: 'commons-io', version: '2.8.0'
