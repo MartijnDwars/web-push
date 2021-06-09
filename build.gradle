@@ -30,7 +30,7 @@ dependencies {
     implementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.12.2'
 
     // For cryptographic operations
-    shadow group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.68'
+    shadow group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.69'
 
     // For creating and signing JWT
     implementation group: 'org.bitbucket.b_c', name: 'jose4j', version: '0.7.6'
