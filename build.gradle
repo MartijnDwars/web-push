@@ -33,7 +33,7 @@ dependencies {
     shadow group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.68'
 
     // For creating and signing JWT
-    implementation group: 'org.bitbucket.b_c', name: 'jose4j', version: '0.7.6'
+    implementation group: 'org.bitbucket.b_c', name: 'jose4j', version: '0.7.8'
 
     // For parsing JSON
     testImplementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
